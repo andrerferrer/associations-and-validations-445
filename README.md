@@ -1,10 +1,15 @@
-## ActiveRecord Boilerplate
+# Usage
+```
+cd ~/code/$USER
+git clone git@github.com:andrerferrer/associations-and-validations-445
+cd associations-and-validations-445
+bundle install
+stt # Open this folder in Sublime Text
+rake db:create
+rake db:migrate
+rake db:seed
+rake console
+```
 
-This is a starting point for the Activerecord Basics lecture using sqlite. During the lecture, you need to:
+Good Luck, Have Fun!
 
-- Clone The project
-- Run `bundle install`
-- Explain `rake -T`
-- Explain `config/database.yml`
-- Run `rake db:create` / `rake db:drop`
-- Create and run 2 migrations
